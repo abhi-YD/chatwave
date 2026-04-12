@@ -121,7 +121,6 @@ Copy `backend/.env.example` → `backend/.env` and fill in:
 | `CLOUDINARY_API_KEY` | Your Cloudinary API key |
 | `CLOUDINARY_API_SECRET` | Your Cloudinary API secret |
 
-> ⚠️ **Never commit your `.env` file to GitHub!**
 
 ---
 
