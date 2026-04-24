@@ -1,0 +1,65 @@
+# =============================================
+# ROOT .gitignore — ChatWave MERN Chat App
+# =============================================
+
+# ---- Environment Variables (NEVER commit these!) ----
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ---- Node Modules (install with npm install) ----
+node_modules/
+**/node_modules/
+
+# ---- Build Outputs ----
+dist/
+build/
+**/dist/
+**/build/
+
+# ---- Logs ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- OS Generated Files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.editorconfig
+
+# ---- Package Manager ----
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ---- Vite Cache ----
+.vite/
+**/.vite/
+
+# ---- Misc ----
+.cache/
+.temp/
+*.tgz
+*.zip
